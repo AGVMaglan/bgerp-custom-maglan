@@ -116,6 +116,17 @@ report:report.30.title=Платежи наличные в офисе за тек
 report:report.30.jspFile=/WEB-INF/jspf/user/plugin/custom.maglan/report/old/bgbilling_pay_curmonth.jsp
 ----
 
+=== Платежи за текущий месяц
+//image::_res/bgbilling_pay_curmonth_all.png[width=800px]
+
+Конфигурация.
+[source]
+----
+report:report.31.title=Платежи за текущий месяц
+report:report.31.jspFile=/WEB-INF/jspf/user/plugin/custom.maglan/report/old/bgbilling_pay_curmonth_all.jsp
+----
+
+
 [[document-pattern]]
 == Шаблоны документов
 

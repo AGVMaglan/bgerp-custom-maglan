@@ -1,4 +1,5 @@
-= BGERP CUSTOM DEMO
+= BGERP CUSTOM MAGLAN
 
-This is the demo repo, fork it to your own:
-https://bgerp.org/doc/3.0/manual/kernel/extension.html#custom
+Репозитарий содержит link:https://bgerp.org/doc/3.0/manual/plugin/report/index.html#jsp[JSP отчёты], преимущественно для плагина link:https://bgerp.org/doc/3.0/manual/plugin/bgbilling[BGBilling].
+
+

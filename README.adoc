@@ -27,7 +27,7 @@ report:report.2.jspFile=/WEB-INF/jspf/user/plugin/custom.maglan/report/old/bgbil
 ----
 
 === Новые договора за четыре месяца
-//bgbilling_contract_curmonth-3_all.png[width=800px]
+//image::_res/bgbilling_contract_curmonth-3_all.png[width=800px]
 
 Конфигурация.
 [source]
@@ -37,7 +37,7 @@ report:report.3.jspFile=/WEB-INF/jspf/user/plugin/custom.maglan/report/old/bgbil
 ----
 
 === Выбрать все договоры без установленного параметра
-//bgbilling_parameter_type_1.png[width=800px]
+//image::_res/bgbilling_parameter_type_1.png[width=800px]
 
 Конфигурация.
 [source]
@@ -47,7 +47,7 @@ report:report.5.jspFile=/WEB-INF/jspf/user/plugin/custom.maglan/report/old/bgbil
 ----
 
 === Неактивные договора до 2019 года
-//bgbilling_contract_backup.png[width=800px]
+//image::_res/bgbilling_contract_backup.png[width=800px]
 
 Конфигурация.
 [source]
@@ -55,6 +55,17 @@ report:report.5.jspFile=/WEB-INF/jspf/user/plugin/custom.maglan/report/old/bgbil
 report:report.6.title=Неактивные договора до 2019 года
 report:report.6.jspFile=/WEB-INF/jspf/user/plugin/custom.maglan/report/old/bgbilling_contract_backup.jsp
 ----
+
+=== Лимиты (физ.лицо)
+//image::_res/bgbilling_limit_fiz.png[width=800px]
+
+Конфигурация.
+[source]
+----
+report:report.7.title=Лимиты (физ.лицо)
+report:report.7.jspFile=/WEB-INF/jspf/user/plugin/custom.maglan/report/old/bgbilling_limit_fiz.jsp
+----
+
 
 [[document-pattern]]
 == Шаблоны документов

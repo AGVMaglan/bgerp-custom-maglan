@@ -86,6 +86,16 @@ report:report.10.title=Доход-Наработка-Договор за три 
 report:report.10.jspFile=/WEB-INF/jspf/user/plugin/custom.maglan/report/old/bgbilling_pay_account_contract_curmonth-3.jsp
 ----
 
+=== Сравнение наработки за последние три месяца
+//image::_res/bgbilling_service_curmonth-3.png[width=800px]
+
+Конфигурация.
+[source]
+----
+report:report.11.title=Сравнение наработки за последние три месяца
+report:report.11.jspFile=/WEB-INF/jspf/user/plugin/custom.maglan/report/old/bgbilling_service_curmonth-3.jsp
+----
+
 [[document-pattern]]
 == Шаблоны документов
 

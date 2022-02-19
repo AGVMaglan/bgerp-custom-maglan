@@ -1,4 +1,172 @@
-= BGERP CUSTOM DEMO
+= BGERP CUSTOM MAGLAN
 
-This is the demo repo, fork it to your own:
-https://bgerp.org/doc/3.0/manual/kernel/extension.html#custom
+BGERP link:https://bgerp.org/doc/3.0/manual/kernel/extension.html#custom[Custom] репозитарий компании Маглан.
+
+[[jsp-reports]]
+== JSP отчёты
+Репозитарий содержит link:https://bgerp.org/doc/3.0/manual/plugin/report/index.html#jsp[JSP отчёты], преимущественно для плагина link:https://bgerp.org/doc/3.0/manual/plugin/bgbilling[BGBilling].
+
+=== Новые договора за текущий день
+//image::_res/bgbilling_contract_curdate.png[width=800px]
+
+Конфигурация.
+[source]
+----
+report:report.1.title=Новые договора за текущий день
+report:report.1.jspFile=/WEB-INF/jspf/user/plugin/custom.maglan/report/old/bgbilling_contract_curdate.jsp
+----
+
+=== Новые договора за текущий месяц
+//image::_res/bgbilling_contract_curmonth.png[width=800px]
+
+Конфигурация.
+[source]
+----
+report:report.2.title=Новые договора за текущий месяц
+report:report.2.jspFile=/WEB-INF/jspf/user/plugin/custom.maglan/report/old/bgbilling_contract_curmonth.jsp
+----
+
+=== Новые договора за четыре месяца
+//image::_res/bgbilling_contract_curmonth-3_all.png[width=800px]
+
+Конфигурация.
+[source]
+----
+report:report.3.title=Новые договора за четыре месяца
+report:report.3.jspFile=/WEB-INF/jspf/user/plugin/custom.maglan/report/old/bgbilling_contract_curmonth-3_all.jsp
+----
+
+=== Выбрать все договоры без установленного параметра
+//image::_res/bgbilling_parameter_type_1.png[width=800px]
+
+Конфигурация.
+[source]
+----
+report:report.5.title=Выбрать все договоры без установленного параметра
+report:report.5.jspFile=/WEB-INF/jspf/user/plugin/custom.maglan/report/old/bgbilling_parameter_type_1.jsp
+----
+
+=== Неактивные договора до 2019 года
+//image::_res/bgbilling_contract_backup.png[width=800px]
+
+Конфигурация.
+[source]
+----
+report:report.6.title=Неактивные договора до 2019 года
+report:report.6.jspFile=/WEB-INF/jspf/user/plugin/custom.maglan/report/old/bgbilling_contract_backup.jsp
+----
+
+=== Лимиты (физ.лицо)
+//image::_res/bgbilling_limit_fiz.png[width=800px]
+
+Конфигурация.
+[source]
+----
+report:report.7.title=Лимиты (физ.лицо)
+report:report.7.jspFile=/WEB-INF/jspf/user/plugin/custom.maglan/report/old/bgbilling_limit_fiz.jsp
+----
+
+=== Лимиты (юр.лицо)
+//image::_res/bgbilling_limit_ur.png[width=800px]
+
+Конфигурация.
+[source]
+----
+report:report.8.title=Лимиты (юр.лицо)
+report:report.8.jspFile=/WEB-INF/jspf/user/plugin/custom.maglan/report/old/bgbilling_limit_ur.jsp
+----
+
+=== Доход-Наработка-Договор за три месяца
+//image::_res/bgbilling_pay_account_contract_curmonth-3.png[width=800px]
+
+Конфигурация.
+[source]
+----
+report:report.10.title=Доход-Наработка-Договор за три месяца
+report:report.10.jspFile=/WEB-INF/jspf/user/plugin/custom.maglan/report/old/bgbilling_pay_account_contract_curmonth-3.jsp
+----
+
+=== Сравнение наработки за последние три месяца
+//image::_res/bgbilling_service_curmonth-3.png[width=800px]
+
+Конфигурация.
+[source]
+----
+report:report.11.title=Сравнение наработки за последние три месяца
+report:report.11.jspFile=/WEB-INF/jspf/user/plugin/custom.maglan/report/old/bgbilling_service_curmonth-3.jsp
+----
+
+=== Платежи наличные в офисе за текущий день
+//image::_res/bgbilling_service_curmonth-3.png[width=800px]
+
+Конфигурация.
+[source]
+----
+report:report.20.title=Платежи наличные в офисе за текущий день
+report:report.20.jspFile=/WEB-INF/jspf/user/plugin/custom.maglan/report/old/bgbilling_pay.jsp
+----
+
+=== Платежи наличные в офисе за текущий месяц
+//image::_res/bgbilling_pay_curmonth.png[width=800px]
+
+Конфигурация.
+[source]
+----
+report:report.30.title=Платежи наличные в офисе за текущий месяц
+report:report.30.jspFile=/WEB-INF/jspf/user/plugin/custom.maglan/report/old/bgbilling_pay_curmonth.jsp
+----
+
+=== Платежи за текущий месяц
+//image::_res/bgbilling_pay_curmonth_all.png[width=800px]
+
+Конфигурация.
+[source]
+----
+report:report.31.title=Платежи за текущий месяц
+report:report.31.jspFile=/WEB-INF/jspf/user/plugin/custom.maglan/report/old/bgbilling_pay_curmonth_all.jsp
+----
+
+=== Наработка за текущий месяц
+//image::_res/bgbilling_account_curmonth.png[width=800px]
+
+Конфигурация.
+[source]
+----
+report:report.35.title=Наработка за текущий месяц
+report:report.35.jspFile=/WEB-INF/jspf/user/plugin/custom.maglan/report/old/bgbilling_account_curmonth.jsp
+----
+
+=== Наработка за предыдущий месяц
+//image::_res/bgbilling_account_curmonth-1.png[width=800px]
+
+Конфигурация.
+[source]
+----
+report:report.36.title=Наработка за предыдущий месяц
+report:report.36.jspFile=/WEB-INF/jspf/user/plugin/custom.maglan/report/old/bgbilling_account_curmonth-1.jsp
+----
+
+=== Взаимозачеты +
+//image::_res/bgbilling_pay_curmonth_14.png[width=800px]
+
+Конфигурация.
+[source]
+----
+report:report.40.title=Взаимозачеты +
+report:report.40.jspFile=/WEB-INF/jspf/user/plugin/custom.maglan/report/old/bgbilling_pay_curmonth_14.jsp
+----
+
+=== Остаток ключей KAV
+//image::_res/bgbilling_kav.png[width=800px]
+
+Конфигурация.
+[source]
+----
+report:report.50.title=Остаток ключей KAV
+report:report.50.jspFile=/WEB-INF/jspf/user/plugin/custom.maglan/report/old/bgbilling_kav.jsp
+----
+
+[[document-pattern]]
+== Шаблоны документов
+
+TODO

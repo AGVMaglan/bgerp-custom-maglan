@@ -96,6 +96,16 @@ report:report.11.title=Сравнение наработки за последн
 report:report.11.jspFile=/WEB-INF/jspf/user/plugin/custom.maglan/report/old/bgbilling_service_curmonth-3.jsp
 ----
 
+=== Платежи наличные в офисе за текущий день
+//image::_res/bgbilling_service_curmonth-3.png[width=800px]
+
+Конфигурация.
+[source]
+----
+report:report.20.title=Платежи наличные в офисе за текущий день
+report:report.20.jspFile=/WEB-INF/jspf/user/plugin/custom.maglan/report/old/bgbilling_pay.jsp
+----
+
 [[document-pattern]]
 == Шаблоны документов
 

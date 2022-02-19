@@ -156,6 +156,16 @@ report:report.40.title=Взаимозачеты +
 report:report.40.jspFile=/WEB-INF/jspf/user/plugin/custom.maglan/report/old/bgbilling_pay_curmonth_14.jsp
 ----
 
+=== Остаток ключей KAV
+//image::_res/bgbilling_kav.png[width=800px]
+
+Конфигурация.
+[source]
+----
+report:report.50.title=Остаток ключей KAV
+report:report.50.jspFile=/WEB-INF/jspf/user/plugin/custom.maglan/report/old/bgbilling_kav.jsp
+----
+
 [[document-pattern]]
 == Шаблоны документов
 

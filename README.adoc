@@ -1,5 +1,24 @@
 = BGERP CUSTOM MAGLAN
 
+BGERP link:https://bgerp.org/doc/3.0/manual/kernel/extension.html#custom[Custom] репозитарий компании Маглан.
+
+[[jsp-reports]]
+== JSP отчёты
 Репозитарий содержит link:https://bgerp.org/doc/3.0/manual/plugin/report/index.html#jsp[JSP отчёты], преимущественно для плагина link:https://bgerp.org/doc/3.0/manual/plugin/bgbilling[BGBilling].
 
+=== Новые договора за текущий день
+image::_res/
 
+link:webapps/WEB-INF/jspf/user/plugin/custom.maglan/report/old/bgbilling_contract_curdate.jsp[JSP]
+
+Конфигурация.
+[source]
+----
+
+----
+
+
+[[document-pattern]]
+== Шаблоны документов
+
+TODO

@@ -67,13 +67,23 @@ report:report.7.jspFile=/WEB-INF/jspf/user/plugin/custom.maglan/report/old/bgbil
 ----
 
 === Лимиты (юр.лицо)
-//image::_res/gbilling_limit_ur.png[width=800px]
+//image::_res/bgbilling_limit_ur.png[width=800px]
 
 Конфигурация.
 [source]
 ----
 report:report.8.title=Лимиты (юр.лицо)
-report:report.8.jspFile=/WEB-INF/jspf/user/plugin/custom.smartkom/report/old/bgbilling_limit_ur.jsp
+report:report.8.jspFile=/WEB-INF/jspf/user/plugin/custom.maglan/report/old/bgbilling_limit_ur.jsp
+----
+
+=== Доход-Наработка-Договор за три месяца
+//image::_res/bgbilling_pay_account_contract_curmonth-3.png[width=800px]
+
+Конфигурация.
+[source]
+----
+report:report.10.title=Доход-Наработка-Договор за три месяца
+report:report.10.jspFile=/WEB-INF/jspf/user/plugin/custom.maglan/report/old/bgbilling_pay_account_contract_curmonth-3.jsp
 ----
 
 [[document-pattern]]

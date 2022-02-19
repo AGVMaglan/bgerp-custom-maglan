@@ -27,7 +27,7 @@ report:report.2.jspFile=/WEB-INF/jspf/user/plugin/custom.maglan/report/old/bgbil
 ----
 
 === Новые договора за четыре месяца
-//example_bgbilling_contract_curmonth-3_all.png[width=800px]
+//bgbilling_contract_curmonth-3_all.png[width=800px]
 
 Конфигурация.
 [source]
@@ -35,6 +35,17 @@ report:report.2.jspFile=/WEB-INF/jspf/user/plugin/custom.maglan/report/old/bgbil
 report:report.3.title=Новые договора за четыре месяца
 report:report.3.jspFile=/WEB-INF/jspf/user/plugin/custom.maglan/report/old/bgbilling_contract_curmonth-3_all.jsp
 ----
+
+=== Выбрать все договоры без установленного параметра
+//bgbilling_parameter_type_1.png[width=800px]
+
+Конфигурация.
+[source]
+----
+report:report.5.title=Выбрать все договоры без установленного параметра
+report:report.5.jspFile=/WEB-INF/jspf/user/plugin/custom.maglan/report/old/bgbilling_parameter_type_1.jsp
+----
+
 
 
 

@@ -66,6 +66,15 @@ report:report.7.title=Лимиты (физ.лицо)
 report:report.7.jspFile=/WEB-INF/jspf/user/plugin/custom.maglan/report/old/bgbilling_limit_fiz.jsp
 ----
 
+=== Лимиты (юр.лицо)
+//image::_res/gbilling_limit_ur.png[width=800px]
+
+Конфигурация.
+[source]
+----
+report:report.8.title=Лимиты (юр.лицо)
+report:report.8.jspFile=/WEB-INF/jspf/user/plugin/custom.smartkom/report/old/bgbilling_limit_ur.jsp
+----
 
 [[document-pattern]]
 == Шаблоны документов

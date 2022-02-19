@@ -46,8 +46,15 @@ report:report.5.title=Выбрать все договоры без устано
 report:report.5.jspFile=/WEB-INF/jspf/user/plugin/custom.maglan/report/old/bgbilling_parameter_type_1.jsp
 ----
 
+=== Неактивные договора до 2019 года
+//bgbilling_contract_backup.png[width=800px]
 
-
+Конфигурация.
+[source]
+----
+report:report.6.title=Неактивные договора до 2019 года
+report:report.6.jspFile=/WEB-INF/jspf/user/plugin/custom.maglan/report/old/bgbilling_contract_backup.jsp
+----
 
 [[document-pattern]]
 == Шаблоны документов

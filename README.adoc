@@ -146,6 +146,16 @@ report:report.36.title=Наработка за предыдущий месяц
 report:report.36.jspFile=/WEB-INF/jspf/user/plugin/custom.maglan/report/old/bgbilling_account_curmonth-1.jsp
 ----
 
+=== Взаимозачеты +
+//image::_res/bgbilling_pay_curmonth_14.png[width=800px]
+
+Конфигурация.
+[source]
+----
+report:report.40.title=Взаимозачеты +
+report:report.40.jspFile=/WEB-INF/jspf/user/plugin/custom.maglan/report/old/bgbilling_pay_curmonth_14.jsp
+----
+
 [[document-pattern]]
 == Шаблоны документов
 

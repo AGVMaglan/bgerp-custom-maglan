@@ -7,9 +7,7 @@ BGERP link:https://bgerp.org/doc/3.0/manual/kernel/extension.html#custom[Custom]
 Репозитарий содержит link:https://bgerp.org/doc/3.0/manual/plugin/report/index.html#jsp[JSP отчёты], преимущественно для плагина link:https://bgerp.org/doc/3.0/manual/plugin/bgbilling[BGBilling].
 
 === Новые договора за текущий день
-//image::_res/bgbilling_contract_curdate.png[width=600px]
-
-link:webapps/WEB-INF/jspf/user/plugin/custom.maglan/report/old/bgbilling_contract_curdate.jsp[JSP]
+//image::_res/bgbilling_contract_curdate.png[width=800px]
 
 Конфигурация.
 [source]
@@ -19,9 +17,7 @@ report:report.1.jspFile=/WEB-INF/jspf/user/plugin/custom.maglan/report/old/bgbil
 ----
 
 === Новые договора за текущий месяц
-//image::_res/bgbilling_contract_curmonth.png[width=600px]
-
-link:webapps/WEB-INF/jspf/user/plugin/custom.maglan/report/old/bgbilling_contract_curmonth.jsp[JSP]
+//image::_res/bgbilling_contract_curmonth.png[width=800px]
 
 Конфигурация.
 [source]
@@ -29,6 +25,18 @@ link:webapps/WEB-INF/jspf/user/plugin/custom.maglan/report/old/bgbilling_contrac
 report:report.2.title=Новые договора за текущий месяц
 report:report.2.jspFile=/WEB-INF/jspf/user/plugin/custom.maglan/report/old/bgbilling_contract_curmonth.jsp
 ----
+
+=== Новые договора за четыре месяца
+//example_bgbilling_contract_curmonth-3_all.png[width=800px]
+
+Конфигурация.
+[source]
+----
+report:report.3.title=Новые договора за четыре месяца
+report:report.3.jspFile=/WEB-INF/jspf/user/plugin/custom.maglan/report/old/bgbilling_contract_curmonth-3_all.jsp
+----
+
+
 
 [[document-pattern]]
 == Шаблоны документов
